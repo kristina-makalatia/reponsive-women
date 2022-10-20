@@ -1,0 +1,128 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blueviolet;
+    padding: 25px;
+}
+.navigation ul {
+    display: flex;
+}
+.burger-bar {
+    display: none;
+    color: #fff;
+}
+
+/* block examples */
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 500px;
+    background-color: lightblue;
+}
+.block {
+    width: 250px;
+    height: 250px;
+}
+.block:nth-child(1) {
+    background-color: yellow;
+}
+.block:nth-child(2) {
+    background-color: red;
+}
+.block:nth-child(3) {
+    background-color: green;
+}
+.block:nth-child(4) {
+    background-color: pink;
+}
+
+.container-block {
+    max-width: 1170px;
+    width:80%;
+    margin:0 auto;
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+/* social icons */
+.fa-facebook {
+    font-size: 35px;
+    color: blue;
+}
+.fa-facebook:hover {
+    color: red;
+}
+.youtube {
+    color: red;
+    font-size: 35px;
+}
+.youtube:hover {
+    color: blue;
+}
+
+/* images section */
+.container-wraper {
+    max-width: 1098px;
+    width:80%;
+    margin:0 auto;
+    background-color: lightgrey;
+}
+.text-wraper p {
+    max-width: 565px;
+    width: 100%;
+}
+.image-section-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-block {
+    width: 352px;
+}
+.image-block img {
+    width: 100%;
+}
+
+
+/* footer styles */
+.footer-bg {
+    background-color: #121212;
+    padding: 90px 0 40px 0;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-block01 {
+    width: 260px;
+}
+.contact-icon {
+    color: #5863F8;
+    margin-right: 14px;
+}
+.footer-social-icons {
+    display: flex;
+}
+.size-social {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soc-contact-fb {
+    background-color: #3B5998; 
+}
+.soc-contact-twitter {
+    background-color: #55ACEE;
+    margin:0 15px;
+}
+.soc-contact-google {
+    background-color: #DC4E41;
+}
